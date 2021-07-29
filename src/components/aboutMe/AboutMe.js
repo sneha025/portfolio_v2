@@ -12,9 +12,9 @@ const AboutMe = () => {
             About me
           </h1>
           <p className="text-gray-600 font-sans text-x1  md:text-2xl md:justify-end">
-            Currently working as software developer in Bangalore, India.
-            Currently working as software developer in Bangalore, India.
-            Currently working as software developer in Bangalore, India.
+            I'm an innovative software engineer with 1 year of experience.
+            Currently working as software developer in{" "}
+            <b>Walmart Global Tech</b> Bangalore, India.
           </p>
         </div>
         <div className="flex justify-center m-auto gap-5 md:gap-16">
