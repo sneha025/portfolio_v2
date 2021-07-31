@@ -14,7 +14,8 @@ const AboutMe = () => {
           <p className="text-gray-600 font-sans text-x1  md:text-2xl md:justify-end">
             I'm an innovative software engineer with 1 year of experience.
             Currently working as software developer in{" "}
-            <b>Walmart Global Tech</b> Bangalore, India.
+            <b>Walmart Global Tech</b> Bangalore, India. Recently I'm developing
+            a mobile app for planning trips and travel.
           </p>
         </div>
         <div className="flex justify-center m-auto gap-5 md:gap-16">
@@ -32,7 +33,7 @@ const AboutMe = () => {
           </button>
         </div>
         <div className=" flex justify-center grid grid-flow-row grid-rows-2 mt-16 ">
-          <span className=" flex justify-center ">
+          <span className=" flex justify-center animate-bounce ">
             <img src={scroll} />
           </span>
         </div>

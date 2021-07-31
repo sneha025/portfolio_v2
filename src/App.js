@@ -4,13 +4,15 @@ import AboutMe from "./components/aboutMe/AboutMe";
 import MyWork from "./components/myWork/MyWork";
 import Footer from "./components/footer/Footer";
 import ContactSection from "./components/contact/Social";
+import ComingSoon from "./components/commingSoon/CommingSoon";
 function App() {
   return (
     <div>
       <NavBar />
       <HeroSection />
       <AboutMe />
-      <MyWork />
+      {/* <MyWork /> */}
+      <ComingSoon  />
       <ContactSection />
       <Footer />
     </div>

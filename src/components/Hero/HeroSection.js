@@ -44,8 +44,10 @@ const HeroSection = () => {
             </Link>
           </div>
           <div className=" flex justify-center grid grid-flow-row grid-rows-2">
-            <span className="text-gray-600 font-sans text-lg flex">SCROLL</span>
-            <span className=" flex justify-center ">
+            <span className="text-gray-600 font-sans text-lg flex ">
+              SCROLL
+            </span>
+            <span className=" flex justify-center animate-bounce ">
               <img src={scroll} />
             </span>
           </div>

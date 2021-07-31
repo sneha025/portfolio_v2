@@ -26,13 +26,17 @@ const NavBar = () => {
         </h1>
 
         <div className=" invisible md:visible w-0 md:w-1/2">
-          <div className="grid md:grid-rows-1 grid-cols-3 gap-4 justify-items-center font-sans text-lg font-semibold  text-gray-700  ">
+          <div className="grid md:grid-rows-1 grid-cols-4 gap-4 justify-items-center font-sans text-lg font-semibold  text-gray-700  ">
             <Link to="about" spy={true} smooth={true}>
-              About Me
+              <button>About Me</button>
             </Link>
             <Link to="work" spy={true} smooth={true}>
-              My Work
+              <button>My Work</button>
             </Link>
+            <a href="https://medium.com/@simaurya96">
+              {" "}
+              <button>Blog</button>
+            </a>
             <Link to="contact" spy={true} smooth={true} activeClass="active">
               <button
                 type="button"
@@ -51,13 +55,18 @@ const NavBar = () => {
       </div>
       {isOpen && (
         <div className="z-auto w-screen absolute h-screen bg-purple-600 ">
-          <div className="grid md:grid-rows-3 gap-12 justify-items-center py-20 ">
+          <div className="grid md:grid-rows-4 gap-12 justify-items-center py-20 ">
             <Link to="about" spy={true} smooth={true}>
               About Me
             </Link>
             <Link to="work" spy={true} smooth={true}>
               My Work
             </Link>
+            <a href="https://medium.com/@simaurya96">
+              {" "}
+              <button>Blog</button>
+            </a>
+
             <Link to="contact" spy={true} smooth={true} activeClass="active">
               <button type="button">Contact Me</button>
             </Link>
