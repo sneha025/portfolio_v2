@@ -46,7 +46,7 @@ const MyWork = () => {
 
             return (
               <div className="max-w-sm rounded shadow-lg" key={id}>
-                <img className="w-full" src={picture} />
+                <img className="w-full" src={picture} alt="profileImahe" />
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">{title}</div>
                   <p className="text-gray-700 text-base">{content}</p>
@@ -67,13 +67,13 @@ const MyWork = () => {
           <span className="text-gray-600 font-sans text-x1">MORE IN</span>
           <span className="max-w-sm h-10 rounded rounded-full shadow-lg flex m-4 grid grid-cols-3 p-auto gap-4 justify-items-center">
             <a href="https://github.com/sneha025">
-              <img src={github} />
+              <img src={github} alt="github" />
             </a>
             <a href="https://www.linkedin.com/in/sneha-maurya-54212a178/">
-              <img src={linkedin} />
+              <img src={linkedin} alt="linkedin" />
             </a>
             <a href="https://twitter.com/iamdivaDev">
-              <img src={twitter} />
+              <img src={twitter} alt="twitter" />
             </a>
           </span>
         </div>

@@ -20,21 +20,21 @@ const AboutMe = () => {
         </div>
         <div className="flex justify-center m-auto gap-5 md:gap-16">
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow-lg ">
-            <img src={javascript} />
+            <img src={javascript} alt="" />
           </button>
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow-lg">
-            <img src={dance} />
+            <img src={dance} alt="" />
           </button>
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow-lg">
-            <img src={react} />
+            <img src={react} alt="" />
           </button>
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow-lg">
-            <img src={ai} />
+            <img src={ai} alt="" />
           </button>
         </div>
         <div className=" flex justify-center grid grid-flow-row grid-rows-2 mt-16 ">
           <span className=" flex justify-center animate-bounce ">
-            <img src={scroll} />
+            <img src={scroll} alt="" />
           </span>
         </div>
       </div>

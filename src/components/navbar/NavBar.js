@@ -73,16 +73,16 @@ const NavBar = () => {
           </div>
           <div className="flex justify-center gap-12">
             <a href="https://github.com/sneha025" className="mx-2">
-              <img src={github} />
+              <img src={github} alt="" />
             </a>
             <a
               href="https://www.linkedin.com/in/sneha-maurya-54212a178/"
               className="mx-2"
             >
-              <img src={linkedin} />
+              <img src={linkedin} alt="" />
             </a>
             <a href="https://twitter.com/iamdivaDev" className="mx-2">
-              <img src={twitter} />
+              <img src={twitter} alt="" />
             </a>
           </div>
         </div>

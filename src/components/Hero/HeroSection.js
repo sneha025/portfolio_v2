@@ -16,7 +16,7 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="my-8 w-40 md:mx-8 justify-center">
-          <img src={profile} className="" />
+          <img src={profile} alt="" />
         </div>
       </div>
       <div className="flex justify-center">
@@ -28,7 +28,7 @@ const HeroSection = () => {
             <div>
               <p className="text-gray-600 font-sans text-x1  md:text-2xl flex">
                 web developer from Varanasi,India <s />
-                <img src={india} className="mx-4" />
+                <img src={india} className="mx-4" alt="" />
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const HeroSection = () => {
               SCROLL
             </span>
             <span className=" flex justify-center animate-bounce ">
-              <img src={scroll} />
+              <img src={scroll} alt="" />
             </span>
           </div>
         </div>
