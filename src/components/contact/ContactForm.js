@@ -50,25 +50,25 @@ const ContactForm = () => {
         onSubmit={handleOnSubmit}
       >
         <input
-          className="p-4 my-6 pl-6 shadow-md rounded-xl placeholder-gray-500 border min-w-full min-h-full border-1 tracking-wide  focus:outline-none placeholder-opacity-75 text-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent ... "
+          className="p-4 my-6 pl-6 shadow-md rounded-xl placeholder-gray-500 border min-w-full min-h-full border-1 tracking-wide  focus:outline-none placeholder-opacity-75 text-xl focus:ring-2 focus:ring-purple-600 focus:border-transparent ... "
           placeholder="first Name*"
           value={firstName}
           onChange={handleOnChange("firstName")}
         />
         <input
-          className="p-4 my-6 pl-6 shadow-md rounded-xl placeholder-gray-500 border min-w-full min-h-full border-1 tracking-wide  focus:outline-none placeholder-opacity-75 text-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent ... "
+          className="p-4 my-6 pl-6 shadow-md rounded-xl placeholder-gray-500 border min-w-full min-h-full border-1 tracking-wide  focus:outline-none placeholder-opacity-75 text-xl focus:ring-2 focus:ring-purple-600 focus:border-transparent ... "
           placeholder="Last Name*"
           value={lastName}
           onChange={handleOnChange("lastName")}
         />
         <input
-          className="p-4 my-6 pl-6 shadow-md rounded-xl placeholder-gray-500 border min-w-full min-h-full border-1 tracking-wide  focus:outline-none placeholder-opacity-75 text-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent ... "
+          className="p-4 my-6 pl-6 shadow-md rounded-xl placeholder-gray-500 border min-w-full min-h-full border-1 tracking-wide  focus:outline-none placeholder-opacity-75 text-xl focus:ring-2 focus:ring-purple-600 focus:border-transparent ... "
           placeholder="jonh@email.com*"
           value={email}
           onChange={handleOnChange("email")}
         />
         <input
-          className="p-4 pb-20 my-6 pl-6 shadow-md rounded-xl placeholder-gray-500 border min-w-full min-h-full border-1 tracking-wide  focus:outline-none placeholder-opacity-75 text-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent ... "
+          className="p-4 pb-20 my-6 pl-6 shadow-md rounded-xl placeholder-gray-500 border min-w-full min-h-full border-1 tracking-wide  focus:outline-none placeholder-opacity-75 text-xl focus:ring-2 focus:ring-purple-600 focus:border-transparent ... "
           placeholder="How can i help you?*"
           value={feedback}
           onChange={handleOnChange("feedback")}
