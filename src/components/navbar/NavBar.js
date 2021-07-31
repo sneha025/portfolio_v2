@@ -48,9 +48,9 @@ const NavBar = () => {
           </div>
         </div>
         <button type="button" className="md:hidden" onClick={handleClick}>
-          {!isOpen && <img src={hamburger} />}
+          {!isOpen && <img src={hamburger} alt="" />}
 
-          {isOpen && <img src={close} />}
+          {isOpen && <img src={close} alt="" />}
         </button>
       </div>
       {isOpen && (
