@@ -20,41 +20,50 @@ const NavBar = () => {
   };
   return (
     <div className="relative">
-      <div className={style}>
-        <h1 className="text-left text-gray-900 font-sans text-lg font-bold ">
-          SNEHA MAURYA
-        </h1>
+      {!isOpen && (
+        <div className="bg-white-0 flex justify-between p-4">
+          <h1 className="text-left text-gray-900 font-sans text-lg font-bold ">
+            SNEHA MAURYA
+          </h1>
 
-        <div className=" invisible md:visible w-0 md:w-1/2">
-          <div className="grid md:grid-rows-1 grid-cols-4 gap-4 justify-items-center font-sans text-lg font-semibold  text-gray-700  ">
-            <Link to="about" spy={true} smooth={true}>
-              <button>About Me</button>
-            </Link>
-            <Link to="work" spy={true} smooth={true}>
-              <button>My Work</button>
-            </Link>
-            <a href="https://medium.com/@simaurya96">
-              {" "}
-              <button>Blog</button>
-            </a>
-            <Link to="contact" spy={true} smooth={true} activeClass="active">
-              <button
-                type="button"
-                className="font-semibold text-sm text-gray-700 font-sans text-lg"
-              >
-                Contact Me
-              </button>
-            </Link>
+          <div className=" invisible md:visible w-0 md:w-1/2">
+            <div className="grid md:grid-rows-1 grid-cols-4 gap-4 justify-items-center font-sans text-lg font-semibold  text-gray-700  ">
+              <Link to="about" spy={true} smooth={true}>
+                <button>About Me</button>
+              </Link>
+              <Link to="work" spy={true} smooth={true}>
+                <button>My Work</button>
+              </Link>
+              <a href="https://medium.com/@simaurya96">
+                {" "}
+                <button>Blog</button>
+              </a>
+              <Link to="contact" spy={true} smooth={true} activeClass="active">
+                <button
+                  type="button"
+                  className="font-semibold text-sm text-gray-700 font-sans text-lg"
+                >
+                  Contact Me
+                </button>
+              </Link>
+            </div>
           </div>
+          <button type="button" className="md:hidden" onClick={handleClick}>
+            <img src={hamburger} alt="" />
+          </button>
         </div>
-        <button type="button" className="md:hidden" onClick={handleClick}>
-          {!isOpen && <img src={hamburger} alt="" />}
-
-          {isOpen && <img src={close} alt="" />}
-        </button>
-      </div>
+      )}
       {isOpen && (
-        <div className="z-auto w-screen absolute h-screen bg-purple-600 ">
+        <div className="bg-purple-600 w-screen p-4 h-screen">
+          <div className="flex justify-between">
+            <h1 className="text-left text-gray-900 font-sans text-lg font-bold ">
+              SNEHA MAURYA
+            </h1>
+            <button type="button" className="justify-end" onClick={handleClick}>
+              <img src={close} alt="" />
+            </button>
+          </div>
+
           <div className="grid md:grid-rows-4 gap-12 justify-items-center py-20 ">
             <Link to="about" spy={true} smooth={true}>
               About Me

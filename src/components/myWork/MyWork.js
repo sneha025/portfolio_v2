@@ -34,9 +34,7 @@ const MyWork = () => {
             My work
           </h1>
           <p className="text-gray-600 font-sans text-x1  md:text-2xl md:justify-end">
-            These are some of my personal projects. Some are just design, others
-            design and development. These are some of my personal projects. Some
-            are just design, others design and development.
+            Some of my projects are listed below.
           </p>
         </div>
 

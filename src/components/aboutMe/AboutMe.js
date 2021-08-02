@@ -11,11 +11,9 @@ const AboutMe = () => {
           <h1 className="text-left text-gray-900 font-sans text-lg font-bold md:text-5xl">
             About me
           </h1>
-          <p className="text-gray-600 font-sans text-x1  md:text-2xl md:justify-end">
+          <p className="text-gray- 600 font-sans text-x1  md:text-2xl md:justify-end">
             I'm an innovative software engineer with 1 year of experience.
-            Currently working as software developer in{" "}
-            <b>Walmart Global Tech</b> Bangalore, India. Recently I'm developing
-            a mobile app for planning trips and travel.
+            Recently developing a mobile app for planning trips and travel.
           </p>
         </div>
         <div className="flex justify-center m-auto gap-5 md:gap-16">

@@ -3,15 +3,14 @@ import HeroSection from "./components/Hero/HeroSection";
 import AboutMe from "./components/aboutMe/AboutMe";
 import Footer from "./components/footer/Footer";
 import ContactSection from "./components/contact/Social";
-import ComingSoon from "./components/commingSoon/CommingSoon";
+import MyWork from "./components/myWork/MyWork";
 function App() {
   return (
     <div>
       <NavBar />
       <HeroSection />
       <AboutMe />
-      {/* <MyWork /> */}
-      <ComingSoon  />
+      <MyWork />
       <ContactSection />
       <Footer />
     </div>
