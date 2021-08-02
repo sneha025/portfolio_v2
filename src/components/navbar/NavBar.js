@@ -7,16 +7,9 @@ import github from "../../assets/github.svg";
 import { Link } from "react-scroll";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const design1 = "bg-white-0 flex justify-between p-4  ";
-  const design2 = "bg-purple-600 flex justify-between p-4  ";
-  const [style, setStyle] = useState(design1);
+
   const handleClick = () => {
     setIsOpen(!isOpen);
-    if (!isOpen) {
-      setStyle(design2);
-    } else if (isOpen) {
-      setStyle(design1);
-    }
   };
   return (
     <div className="relative">
