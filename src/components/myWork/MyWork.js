@@ -72,16 +72,25 @@ const MyWork = () => {
         <div className=" grid grid-rows  justify-items-center gap-4">
           <span className="text-gray-600 font-sans text-x1">MORE IN</span>
           <span className="max-w-sm h-10 rounded rounded-full shadow-lg flex m-4 grid grid-cols-3 p-auto gap-4 justify-items-center">
-            <a href="https://github.com/sneha025" target="_blank">
+            <a
+              href="https://github.com/sneha025"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={github} alt="github" />
             </a>
             <a
               href="https://www.linkedin.com/in/sneha-maurya-54212a178/"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin" />
             </a>
-            <a href="https://twitter.com/iamdivaDev" target="_blank">
+            <a
+              href="https://twitter.com/iamdivaDev"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={twitter} alt="twitter" />
             </a>
           </span>

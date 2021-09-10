@@ -29,7 +29,11 @@ const NavBar = () => {
               <Link to="work" spy={true} smooth={true}>
                 <button>My Work</button>
               </Link>
-              <a href="https://medium.com/@simaurya96" target="_blank">
+              <a
+                href="https://medium.com/@simaurya96"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 <button>Blog</button>
               </a>
@@ -66,7 +70,11 @@ const NavBar = () => {
             <Link to="work" spy={true} smooth={true}>
               My Work
             </Link>
-            <a href="https://medium.com/@simaurya96" target="_blank">
+            <a
+              href="https://medium.com/@simaurya96"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <button>Blog</button>
             </a>
@@ -79,6 +87,7 @@ const NavBar = () => {
             <a
               href="https://github.com/sneha025"
               target="_blank"
+              rel="noreferrer"
               className="mx-2"
             >
               <img src={github} alt="" />
@@ -86,6 +95,7 @@ const NavBar = () => {
             <a
               href="https://www.linkedin.com/in/sneha-maurya-54212a178/"
               target="_blank"
+              rel="noreferrer"
               className="mx-2"
             >
               <img src={linkedin} alt="" />
@@ -93,6 +103,7 @@ const NavBar = () => {
             <a
               href="https://twitter.com/iamdivaDev"
               target="_blank"
+              rel="noreferrer"
               className="mx-2"
             >
               <img src={twitter} alt="" />
