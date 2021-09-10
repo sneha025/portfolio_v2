@@ -1,4 +1,4 @@
-import profile from "../../assets/profile.png";
+import profile from "../../assets/sneha.png";
 import scroll from "../../assets/scroll.svg";
 import india from "../../assets/india.svg";
 import { Link } from "react-scroll";
@@ -15,8 +15,8 @@ const HeroSection = () => {
             <b>Sneha</b>
           </p>
         </div>
-        <div className="my-8 w-40 md:mx-8 justify-center">
-          <img src={profile} alt="" />
+        <div className="my-8 w-40 md:mx-8 justify-center ">
+          <img className="rounded-full " src={profile} alt="" />
         </div>
       </div>
       <div className="flex justify-center">

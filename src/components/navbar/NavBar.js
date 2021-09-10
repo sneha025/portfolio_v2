@@ -15,9 +15,11 @@ const NavBar = () => {
     <div className="relative">
       {!isOpen && (
         <div className="bg-white-0 flex justify-between p-4">
-          <h1 className="text-left text-gray-900 font-sans text-lg font-bold ">
-            SNEHA MAURYA
-          </h1>
+          <div className=" block h-8 w-8 bg-purple-600 flex justify-center">
+            <h1 className="text-left text-white font-sans text-lg font-bold ">
+              SM
+            </h1>
+          </div>
 
           <div className=" invisible md:visible w-0 md:w-1/2">
             <div className="grid md:grid-rows-1 grid-cols-4 gap-4 justify-items-center font-sans text-lg font-semibold  text-gray-700  ">
@@ -27,7 +29,7 @@ const NavBar = () => {
               <Link to="work" spy={true} smooth={true}>
                 <button>My Work</button>
               </Link>
-              <a href="https://medium.com/@simaurya96">
+              <a href="https://medium.com/@simaurya96" target="_blank">
                 {" "}
                 <button>Blog</button>
               </a>
@@ -64,7 +66,7 @@ const NavBar = () => {
             <Link to="work" spy={true} smooth={true}>
               My Work
             </Link>
-            <a href="https://medium.com/@simaurya96">
+            <a href="https://medium.com/@simaurya96" target="_blank">
               {" "}
               <button>Blog</button>
             </a>
@@ -74,16 +76,25 @@ const NavBar = () => {
             </Link>
           </div>
           <div className="flex justify-center gap-12">
-            <a href="https://github.com/sneha025" className="mx-2">
+            <a
+              href="https://github.com/sneha025"
+              target="_blank"
+              className="mx-2"
+            >
               <img src={github} alt="" />
             </a>
             <a
               href="https://www.linkedin.com/in/sneha-maurya-54212a178/"
+              target="_blank"
               className="mx-2"
             >
               <img src={linkedin} alt="" />
             </a>
-            <a href="https://twitter.com/iamdivaDev" className="mx-2">
+            <a
+              href="https://twitter.com/iamdivaDev"
+              target="_blank"
+              className="mx-2"
+            >
               <img src={twitter} alt="" />
             </a>
           </div>
